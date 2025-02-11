@@ -45,7 +45,7 @@ The API will be available at http://localhost:8000
 - GET `/`: Returns a Hello World message
 - GET `/docs`: OpenAPI documentation (provided by FastAPI)
 
-### POST /api/llm/inference
+### POST `/api/llm/inference`
 
 Request body
 ```json
@@ -65,7 +65,7 @@ Response
 }
 ```
 
-### GET /api/llm/model
+### GET `/api/llm/model`
 Response
 ```json
 {
